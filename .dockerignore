@@ -1,0 +1,42 @@
+# Ignorar node_modules (não precisa ser copiado para o container)
+node_modules
+
+# Ignorar a pasta dist (será gerada dentro do container)
+dist
+
+# Ignorar arquivos de log
+npm-debug.log
+yarn-debug.log
+pnpm-debug.log
+*.log
+
+# Ignorar arquivos de cache
+.cache/
+.pnpm-store/
+
+# Ignorar arquivos de configuração locais
+.env
+.env.local
+.env.*.local
+
+# Ignorar arquivos de editor/IDE
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Ignorar arquivos relacionados a git
+.git
+.gitignore
+
+# Ignorar arquivos temporários do sistema
+*.tmp
+*.bak
+*.swp
+
+# Ignorar arquivos de build de pacotes
+build/
+out/
+
+# Ignorar arquivos Docker locais
+docker-compose.override.yml
