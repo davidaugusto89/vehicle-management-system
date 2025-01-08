@@ -119,7 +119,7 @@ importers:
         specifier: ^15.3.0
         version: 15.3.0
       prettier:
-        specifier: ^3.0.0
+        specifier: ^3.4.2
         version: 3.4.2
       source-map-support:
         specifier: ^0.5.21
