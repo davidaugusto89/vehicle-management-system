@@ -40,6 +40,8 @@ src/
     └── database/
 ```
 
+---
+
 ## 🚀 Como Executar o Projeto
 
 🐳 Utilizando Docker
@@ -47,27 +49,33 @@ src/
 1. Certifique-se de que o Docker está instalado no seu sistema.
 2. Execute os seguintes comandos:
 
-# Build da imagem Docker
 ```bash
+# Build da imagem Docker
 docker-compose build
 ```
 
-# Subir o container
 ```bash
+# Subir o container
 docker-compose up
 ```
+
+---
 
 ## 📦 Instalando Dependências
 
 Certifique-se de ter o pnpm instalado globalmente no seu sistema.
 
+```bash
 # Instalar dependências
 pnpm install
+```
 
 ▶️ Executar o Projeto
 
+```bash
 # Rodar o projeto em modo desenvolvimento
 pnpm run start:dev
+```
 
 ⚙️ Configuração de Variáveis de Ambiente
 
@@ -75,27 +83,32 @@ As variáveis de ambiente devem ser configuradas em um arquivo .env.
 
 Exemplo de arquivo .env:
 
+```
 DATABASE_URL=postgresql://user:password@localhost:5432/vehicle_management
 JWT_SECRET=your_secret_key
 EMAIL_HOST=smtp.example.com
 EMAIL_PORT=587
 EMAIL_USER=your_email@example.com
 EMAIL_PASS=your_email_password
+````
+
+----
 
 ## 🧪 Testes
 
 Os testes são realizados utilizando o framework Jest.
 
+```bash
 # Executar os testes
 pnpm run test
+```
 
 # Testes Adicionais
-
-    Cobertura de Testes: pnpm run test:cov
-    Testes de Integração: pnpm run test:e2e
+1. Cobertura de Testes: ```pnpm run test:cov```
+2. Testes de Integração: ```pnpm run test:e2e```
 
 ## 🛠️ Scripts Disponíveis
-
+```bash
     pnpm run build - Compila o projeto
     pnpm run start - Inicia o projeto
     pnpm run start:dev - Inicia o projeto em modo de desenvolvimento
@@ -103,25 +116,27 @@ pnpm run test
     pnpm run format - Formata o código com Prettier
     pnpm run test - Executa os testes unitários
     pnpm run seed - Roda o seed inicial do banco de dados
+```
+----
 
 ## 📋 Roadmap
 
-Configuração inicial do projeto
-Módulo de veículos
-Implementar autenticação com JWT
-Configurar envio de e-mails com Nodemailer
-Criar módulo de usuários
-Adicionar logs de auditoria
-
-    Documentação da API com Swagger
+- Configuração inicial do projeto
+- Módulo de veículos
+- Implementar autenticação com JWT
+- Configurar envio de e-mails com Nodemailer
+- Criar módulo de usuários
+- Adicionar logs de auditoria
+- Documentação da API com Swagger
 
 ## 📖 Documentação da API
 
-A documentação da API estará disponível em /api utilizando Swagger assim que implementada.
+A documentação da API estará disponível em ```/api``` utilizando Swagger assim que implementada.
 🤝 Contribuição
 
-Contribuições são bem-vindas! Sinta-se à vontade para enviar PRs com melhorias, sugestões ou correções.
-📄 Licença
+----
+
+## 📄 Licença
 
 Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
 
