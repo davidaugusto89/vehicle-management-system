@@ -27,7 +27,7 @@ Este projeto permite o cadastro, atualização e gerenciamento de informações 
 
 ## 📂 Estrutura do Projeto
 
-```bash
+```zsh
 src/
 ├── app.module.ts
 ├── main.ts
@@ -49,12 +49,12 @@ src/
 1. Certifique-se de que o Docker está instalado no seu sistema.
 2. Execute os seguintes comandos:
 
-```bash
+```zsh
 # Build da imagem Docker
 docker-compose build
 ```
 
-```bash
+```zsh
 # Subir o container
 docker-compose up
 ```
@@ -65,14 +65,14 @@ docker-compose up
 
 Certifique-se de ter o pnpm instalado globalmente no seu sistema.
 
-```bash
+```zsh
 # Instalar dependências
 pnpm install
 ```
 
 ▶️ Executar o Projeto
 
-```bash
+```zsh
 # Rodar o projeto em modo desenvolvimento
 pnpm run start:dev
 ```
@@ -98,7 +98,7 @@ EMAIL_PASS=your_email_password
 
 Os testes são realizados utilizando o framework Jest.
 
-```bash
+```zsh
 # Executar os testes
 pnpm run test
 ```
@@ -110,7 +110,7 @@ pnpm run test
 2. Testes de Integração: ```pnpm run test:e2e```
 
 ## 🛠️ Scripts Disponíveis
-```bash
+```zsh
     pnpm run build - Compila o projeto
     pnpm run start - Inicia o projeto
     pnpm run start:dev - Inicia o projeto em modo de desenvolvimento
