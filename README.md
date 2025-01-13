@@ -103,7 +103,9 @@ Os testes são realizados utilizando o framework Jest.
 pnpm run test
 ```
 
-# Testes Adicionais
+---
+
+### Testes Adicionais
 1. Cobertura de Testes: ```pnpm run test:cov```
 2. Testes de Integração: ```pnpm run test:e2e```
 
